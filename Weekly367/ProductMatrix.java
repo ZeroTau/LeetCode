@@ -1,7 +1,6 @@
 import java.math.BigInteger;
-import java.util.Arrays;
 
-class Solution {
+class Solution04 {
     private static final BigInteger MOD = new BigInteger("12345");
     private static final long MOD_INT = 12345;
 
@@ -58,12 +57,5 @@ class Solution {
         }
 
         return result;
-    }
-
-    public static void main(String[] args)
-    {
-        Solution sol = new Solution();
-        System.out.println(
-                Arrays.deepToString(sol.constructProductMatrix(new int[][]{{414750857}, {449145368}, {767292749}})));
     }
 }
